@@ -7,3 +7,4 @@ torchvision==0.8.2+cu101
 transformers==4.30.0
 detectron2==0.3
 seqeval==1.2.2
+pillow>=10.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
