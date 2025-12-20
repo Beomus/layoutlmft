@@ -2,8 +2,9 @@
 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu101/torch1.7/index.html
 
 datasets==1.6.2
-torch==1.13.1
+torch==2.2.0
 torchvision==0.8.2+cu101
 transformers==4.30.0
 detectron2==0.3
 seqeval==1.2.2
+filelock>=3.20.1 # not directly required, pinned by Snyk to avoid a vulnerability
